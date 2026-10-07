@@ -1,0 +1,26 @@
+name: proto1
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.11.4
+
+dependencies:
+  cloud_firestore: ^6.4.1
+  firebase_core: ^4.9.0
+  fl_chart: ^1.2.0
+  flutter:
+    sdk: flutter
+  flutter_bluetooth_serial: ^0.4.0
+  geolocator: ^14.0.2
+  permission_handler: ^12.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+http: ^1.2.1
